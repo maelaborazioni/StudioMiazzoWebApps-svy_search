@@ -1,0 +1,11 @@
+allowCreationRelatedRecords:true,
+foreignDataSource:"db:/svy_framework/nav_advanced_search_criteria",
+items:[
+{foreignColumnName:"advanced_search_id",primaryDataProviderID:"globals.svy_sea_advancedSearchId",typeid:23,uuid:"4DC77E02-B106-4773-8EFD-A5C32DB23255"},
+{foreignColumnName:"parent_id",operator:256,primaryDataProviderID:"globals.svy_sea_CONST_ZERO",typeid:23,uuid:"8155868A-43EA-44AA-AA77-8B1D83390F7F"}
+],
+joinType:1,
+name:"nav_advanced_search_to_nav_advanced_search_criteria$roots",
+primaryDataSource:"db:/svy_framework/nav_advanced_search",
+typeid:22,
+uuid:"2A2896C2-8574-4D95-88EE-AC66895FEB4A"

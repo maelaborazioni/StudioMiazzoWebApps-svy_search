@@ -1,0 +1,12 @@
+addEmptyValue:1,
+customValues:"=
+>
+>=
+<
+<=
+CONTAINS",
+name:"sea_filter_operators",
+returnDataProviders:1,
+showDataProviders:1,
+typeid:34,
+uuid:"64F1A93C-7410-4B40-8CAA-C0A2765F7B43"

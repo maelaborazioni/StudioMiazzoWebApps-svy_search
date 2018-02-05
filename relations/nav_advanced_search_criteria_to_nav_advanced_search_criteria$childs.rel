@@ -1,0 +1,12 @@
+allowCreationRelatedRecords:true,
+deleteRelatedRecords:true,
+foreignDataSource:"db:/svy_framework/nav_advanced_search_criteria",
+items:[
+{foreignColumnName:"parent_id",operator:0,primaryDataProviderID:"advanced_search_criteria_id",typeid:23,uuid:"4FA19F31-4A1E-40C2-9560-199600E0C5A5"},
+{foreignColumnName:"advanced_search_id",operator:0,primaryDataProviderID:"advanced_search_id",typeid:23,uuid:"E14951AD-2A70-43ED-A535-C824190F5135"}
+],
+joinType:1,
+name:"nav_advanced_search_criteria_to_nav_advanced_search_criteria$childs",
+primaryDataSource:"db:/svy_framework/nav_advanced_search_criteria",
+typeid:22,
+uuid:"4C30EE75-6549-49E6-8B8C-DB15B446B7F6"
