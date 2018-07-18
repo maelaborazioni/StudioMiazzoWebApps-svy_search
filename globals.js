@@ -924,7 +924,7 @@ function svy_sea_duplicateAdvancedSearch(_fs) {
 	var _dup = _fs.getRecord(_fs.duplicateRecord(true, true));
 	_dup.name += '_copy';	
 
-	/** @type {JSFoundset<db:/svy_framework/nav_advanced_search_criteria>} */
+	/** @type {JSFoundSet<db:/svy_framework/nav_advanced_search_criteria>} */
 	var _related = _ori['nav_advanced_search_to_nav_advanced_search_criteria'];
 	_related.sort('ordering asc');
 	
@@ -932,7 +932,7 @@ function svy_sea_duplicateAdvancedSearch(_fs) {
 		/** @type {JSRecord<db:/svy_framework/nav_advanced_search_criteria>} */
 		var _relatedOriginal = _related.getRecord(i);
 		
-		/** @type {JSFoundset<db:/svy_framework/nav_advanced_search_criteria>} */
+		/** @type {JSFoundSet<db:/svy_framework/nav_advanced_search_criteria>} */
 		var _relatedDub = _dup['nav_advanced_search_to_nav_advanced_search_criteria'].getRecord(_dup['nav_advanced_search_to_nav_advanced_search_criteria'].newRecord(false, true));
 		_relatedDub.is_group = _relatedOriginal.is_group;
 		_relatedDub.parent_id = _relatedOriginal.parent_id ? _relatedOriginal.parent_id : 0;

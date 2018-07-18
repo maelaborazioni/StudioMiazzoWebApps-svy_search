@@ -1,7 +1,7 @@
 /**
  * @type {String}
  *
- * @properties={typeid:35,uuid:"62c5340f-1a7a-4f35-b70d-aad66fe579b9",variableType:12}
+ * @properties={typeid:35,uuid:"62c5340f-1a7a-4f35-b70d-aad66fe579b9"}
  */
 var search_name = '';
 
@@ -21,7 +21,7 @@ function btn_ok(_event)
 	var _form = globals.nav.form_view_01
 	if(databaseManager.getSQL(forms[_form].foundset))
 	{
-		/** @type {JSFoundset<db:/svy_framework/search_criteria>} */
+		/** @type {JSFoundSet<db:/svy_framework/search_criteria>} */
 		var _foundset = databaseManager.getFoundSet(forms.svy_sea_search_criteria_dtl.controller.getDataSource())
 		_foundset.newRecord()
 		_foundset.sql_statement = databaseManager.getSQL(forms[_form].foundset)
